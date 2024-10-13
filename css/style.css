@@ -216,58 +216,81 @@ h2{
 
 
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:1400px) {
 
-body{
-    font-size: x-small;
+    .section-3{
+        height: 27rem;
+    }
 }
 
 
-h1{
-    font-size: 1.3rem;
+
+@media screen and (max-width:1200px) {
+
+    .section-3{
+        height: 30rem;
+    }
 }
 
-.btn{
-    padding: 0.4rem 0.6rem;
-    border-radius: 0.6rem;
+
+
+@media screen and (max-width:992px) {
+
+    .section-3{
+        height: 41rem;
+    }
+
+    .content-2{
+        grid-template-columns: auto auto;
+    }
 }
 
-.icon{
-    height: 2rem;
-    width: 2rem;
-    position: relative;
-    border-radius:0.6rem ;
+
+
+@media screen and (max-width:768px) {
+
+    .section-3{
+        height: 51rem;
+    }
+
+    .content-2{
+        grid-template-columns: auto auto;
     }
     
-     .icon i{
-        margin: 0.7rem;
+    .image-section{
+        grid-template-columns: auto;
     }
 
-    .content-1{
-        padding-right: 2rem;
-        }
-        
-        .content-2{
-            margin-top: 0.4rem;
-            width: 50%;
-        }
-        
-        .item{
-            border-radius: 1rem; 
-            padding-bottom: 0;
-        }
+    .image{
+        margin-bottom: 2rem;
+    }
 
-    .section-4{
-      padding-top: 5rem;
-        }
-
-        .footer{
-            padding: 0.3rem;
-        }
-        
-        .footer-content i{
-            margin-right: 1rem;
-        }
+    .footer-content i{
+        margin-right: 1.5rem;
+    }
+}
 
 
+
+@media screen and (max-width:576px) {
+
+    .section-3{
+        height: 53rem;
+    }
+
+    .content-2{
+        grid-template-columns: auto auto;
+    }
+    
+    .image-section{
+        grid-template-columns: auto;
+    }
+
+    .image{
+        margin-bottom: 2rem;
+    }
+
+    .footer-content i{
+        margin-right: 1.5rem;
+    }
 }
